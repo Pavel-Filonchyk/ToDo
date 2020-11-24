@@ -1,4 +1,3 @@
-
 const taskList = document.querySelector("#list-group")  
 let tasks = []  
 let tasksJSON = localStorage.getItem("tasks")  
@@ -27,8 +26,8 @@ form.addEventListener("submit", function (event){
     const taskInput = document.querySelector("#addNewTask") 
     const taskText = taskInput.value;   
 
-            tasks.push(taskText)  
-            localStorage.setItem("tasks", JSON.stringify(tasks))  
+    tasks.push(taskText)  
+    localStorage.setItem("tasks", JSON.stringify(tasks))  
 
     const taskHTML = `  
         <li class="list-group-item d-flex justify-content-between">

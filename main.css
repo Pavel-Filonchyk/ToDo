@@ -2,7 +2,6 @@ body {
     background-color: #e4e5e7;
     padding-top: 50px;
 }
-
 .aside {
     height: 400px;
 }
@@ -16,7 +15,6 @@ body {
     font-weight: 400;
     padding-top: 5px;
 }
-
 .task-title--done {
     color: #c7c7c7;
     text-decoration: line-through;
